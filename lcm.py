@@ -7,9 +7,9 @@ def compute_lcm(n1,n2):
         if(big%n1==0)and (big%n2==0):
           lcm=big
           break
-        big+=n1
+        big+=1
     return lcm    
   
-n1=int(input())
-n2=int(input())
-print("the lcm is",compute_lcm(n1,n2))
+noo1=int(input())
+noo2=int(input())
+print("the lcm is",compute_lcm(noo1,noo2))
