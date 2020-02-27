@@ -1,0 +1,10 @@
+n1=int(input())
+n2=int(input())
+#addition
+print("addition:",n1+n2)
+#subtraction
+print("subtraction:",n1-n2)
+#multiplication
+print("multiplication:",n1*n2)
+#division
+print("division:",n1/n2)
